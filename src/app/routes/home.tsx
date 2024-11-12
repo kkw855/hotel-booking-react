@@ -1,6 +1,14 @@
-import { Button } from '@/components/ui/button.tsx'
+import { Button } from '@/components/ui/button'
 
-function App() {
+export const HomeRoute = () => {
+  const A: number = 'abc'
+  console.log(A)
+  // const session = useSession()
+  //
+  // console.log('Home Route', session)
+  //
+  // if (!session?.data?.user) return <div>Unauthorized</div>
+
   return (
     <div>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
@@ -12,5 +20,3 @@ function App() {
     </div>
   )
 }
-
-export default App
